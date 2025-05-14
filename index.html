@@ -149,7 +149,7 @@
             const message = `📢 Новый клик!\nUser ID: ${userId}\nFirst Name: ${firstName}\nIP: ${userIp}\nРеклама: ${document.getElementById("ad-frame").src}`;
             
             try {
-                await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                await fetch(`https://api.telegram.org/bot7675070608:AAGVPYr9IbLAmUhyObGO0-joXbxjkLiIlMM/sendMessage`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
