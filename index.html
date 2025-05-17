@@ -1,125 +1,194 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Рекламный блок</title>
+    <title>Рекламная страница</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
-        #user-info {
-            background: #f5f5f5;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 20px;
+        .ad-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .vertical-banner {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        .horizontal-banner {
+            width: 100%;
+            margin: 15px 0;
+            border: 1px solid #eee;
         }
     </style>
 </head>
 <body>
-    <div id="user-info">
-        <div>User ID: <span id="user-id">-</span></div>
-        <div>First Name: <span id="first-name">-</span></div>
-        <div>IP: <span id="ip-address">-</span></div>
+    <h2>Рекламные баннеры</h2>
+
+    <!-- 5 вертикальных баннеров 300x250 -->
+    <div class="ad-container">
+        <!-- Баннер 1 -->
+        <div class="vertical-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'd6963ab33d4f0427d802e49a611c6088',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
+        </div>
+
+        <!-- Баннер 2 -->
+        <div class="vertical-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'd6963ab33d4f0427d802e49a611c6088',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
+        </div>
+
+        <!-- Баннер 3 -->
+        <div class="vertical-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'd6963ab33d4f0427d802e49a611c6088',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
+        </div>
+
+        <!-- Баннер 4 -->
+        <div class="vertical-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'd6963ab33d4f0427d802e49a611c6088',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
+        </div>
+
+        <!-- Баннер 5 -->
+        <div class="vertical-banner">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'd6963ab33d4f0427d802e49a611c6088',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
+        </div>
     </div>
 
-    <!-- Рекламный скрипт -->
-    
-    <iframe src="https://www.profitableratecpm.com/xrvy55sk?key=ab7dc09db96c184a6318ccfe71d8d0b8" width="468" height="250" align="right">
-    Ваш браузер не поддерживает плавающие фреймы!
- </iframe>
+    <!-- 1 Popunder-скрипт -->
+    <div class="ad-container">
+        <script type='text/javascript' src='//pl26640295.profitableratecpm.com/4f/04/65/4f0465cbb75d0fd42ee6413e6350289a.js'></script>
+    </div>
 
-    <iframe src="https://www.profitableratecpm.com/xrvy55sk?key=ab7dc09db96c184a6318ccfe71d8d0b8" width="468" height="250" align="left">
-    Ваш браузер не поддерживает плавающие фреймы!
- </iframe>
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'd6963ab33d4f0427d802e49a611c6088',
-		'format' : 'iframe',
-		'height' : 250,
-		'width' : 300,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/d6963ab33d4f0427d802e49a611c6088/invoke.js"></script>
-<script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
-<div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+    <!-- 1 iframe на всю ширину -->
+    <div class="horizontal-banner">
+        <iframe src="https://www.profitableratecpm.com/xrvy55sk?key=ab7dc09db96c184a6318ccfe71d8d0b8" width="100%" height="100" frameborder="0"></iframe>
+    </div>
+
+    <!-- 10 узких горизонтальных баннеров -->
+    <div class="ad-container">
+        <!-- Баннер 1 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 2 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 3 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 4 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 5 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 6 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 7 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 8 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 9 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+
+        <!-- Баннер 10 -->
+        <div class="horizontal-banner">
+            <script async="async" data-cfasync="false" src="//pl26650817.profitableratecpm.com/95bd1fd98dbac09c1db58368c60956ef/invoke.js"></script>
+            <div id="container-95bd1fd98dbac09c1db58368c60956ef"></div>
+        </div>
+    </div>
+
+    <!-- Telegram-уведомления -->
     <script>
-        // Конфигурация
         const BOT_TOKEN = "7675070608:AAGVPYr9IbLAmUhyObGO0-joXbxjkLiIlMM";
-        const CHAT_ID = "5778294549"; // Замените на ваш chat_id
+        const CHAT_ID = "5778294549";
 
-        // Получаем данные пользователя
-        async function getUserData() {
-            // Данные из Telegram WebApp (если есть)
-            const tgUser = window.Telegram?.WebApp?.initDataUnsafe?.user || {};
-            
-            return {
-                id: tgUser.id || "web_" + Math.random().toString(36).substring(2, 10),
-                firstName: tgUser.first_name || "Гость",
-                ip: await getIp()
-            };
-        }
-
-        // Получаем IP
-        async function getIp() {
-            try {
-                const response = await fetch('https://api.ipify.org?format=json');
-                const data = await response.json();
-                return data.ip;
-            } catch {
-                return "unknown";
-            }
-        }
-
-        // Отправляем данные в Telegram
-        async function sendToTelegram(userData) {
-            const message = `🔔 Новый просмотр \n`
-                         + `User ID: ${userData.id}\n`
-                         + `First Name: ${userData.firstName}\n`
-                         + `IP: ${userData.ip}`;
-            
-            try {
-                await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        chat_id: CHAT_ID,
-                        text: message
-                    })
-                });
-            } catch (e) {
-                console.error("Ошибка отправки:", e);
-            }
-        }
-
-        // Основная логика
-        async function init() {
-            const userData = await getUserData();
-            
-            // Показываем данные на странице
-            document.getElementById("user-id").textContent = userData.id;
-            document.getElementById("first-name").textContent = userData.firstName;
-            document.getElementById("ip-address").textContent = userData.ip;
-            
-            // Отправляем в Telegram
-            await sendToTelegram(userData);
-            
-            // Ловим момент открытия Popunder
-            const observer = new MutationObserver(() => {
-                if (document.hidden) {
-                    console.log("Popunder открыт!");
-                }
-            });
-            
-            observer.observe(document, { attributes: true, attributeFilter: ['hidden'] });
-        }
-
-        // Запускаем при загрузке
-        document.addEventListener("DOMContentLoaded", init);
+        // Отправка уведомления о загрузке
+        fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                chat_id: CHAT_ID,
+                text: "Страница с 17 рекламными блоками загружена"
+            })
+        });
     </script>
-    
-    <!-- Подключаем Telegram WebApp SDK (если нужно) -->
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </body>
 </html>
